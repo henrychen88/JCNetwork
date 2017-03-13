@@ -1,0 +1,3 @@
+target 'JCNetwork' do
+pod 'AFNetworking'
+end
