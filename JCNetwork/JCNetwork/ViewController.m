@@ -10,7 +10,9 @@
 
 #import "NSURLSessionDataTaskController.h"
 #import "NSURLSessionDownloadTaskController.h"
+#import "NSURLSessionDownloadTask2ViewController.h"
 #import "NSURLSessionBackgroundDownloadController.h"
+#import "NSURLSessionDataTask2Controller.h"
 
 @interface ViewController ()
 
@@ -26,6 +28,8 @@
     self.title      = @"网络示例";
     self.titles     = @[@"NSURLSessionDataTask",
                         @"NSURLSessionDownloadTask",
+                        @"NSURLSessionDownloadTask可暂停",
+                        @"NSURLSessionDataTask离线断点",
                         @"NSURLSession后台下载"];
     
     NSLog(@"%@", NSTemporaryDirectory());
@@ -64,6 +68,16 @@
         }
             break;
         case 2:
+        {
+            controller = [NSURLSessionDownloadTask2ViewController new];
+        }
+            break;
+        case 3:
+        {
+            controller = [NSURLSessionDataTask2Controller new];
+        }
+            break;
+        case 4:
         {
             controller = [NSURLSessionBackgroundDownloadController new];
         }

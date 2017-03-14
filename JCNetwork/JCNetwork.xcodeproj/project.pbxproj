@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		64C1D0E2CE81D4B5AE6D768B /* libPods-JCNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B528CF2F502D46400AC0946A /* libPods-JCNetwork.a */; };
+		BA0A254F1E781CAB00EE25B4 /* NSURLSessionDownloadTask2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0A254E1E781CAB00EE25B4 /* NSURLSessionDownloadTask2ViewController.m */; };
+		BA0A25521E78339A00EE25B4 /* NSURLSessionDataTask2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0A25511E78339A00EE25B4 /* NSURLSessionDataTask2Controller.m */; };
 		BA77F7911E767A0F00099956 /* NSURLSessionBackgroundDownloadController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77F7901E767A0F00099956 /* NSURLSessionBackgroundDownloadController.m */; };
 		BA77F7941E769C6800099956 /* NSURLSessionDataTaskController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77F7931E769C6800099956 /* NSURLSessionDataTaskController.m */; };
 		BA77F7971E769FB100099956 /* NSURLSessionDownloadTaskController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA77F7961E769FB100099956 /* NSURLSessionDownloadTaskController.m */; };
@@ -22,6 +24,10 @@
 		35DAA9EEE5A2F1058E6D348F /* Pods-JCNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JCNetwork/Pods-JCNetwork.debug.xcconfig"; sourceTree = "<group>"; };
 		4D8B977A01E009A31C00FD21 /* Pods-JCNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-JCNetwork/Pods-JCNetwork.release.xcconfig"; sourceTree = "<group>"; };
 		B528CF2F502D46400AC0946A /* libPods-JCNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JCNetwork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0A254D1E781CAB00EE25B4 /* NSURLSessionDownloadTask2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLSessionDownloadTask2ViewController.h; sourceTree = "<group>"; };
+		BA0A254E1E781CAB00EE25B4 /* NSURLSessionDownloadTask2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLSessionDownloadTask2ViewController.m; sourceTree = "<group>"; };
+		BA0A25501E78339A00EE25B4 /* NSURLSessionDataTask2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLSessionDataTask2Controller.h; sourceTree = "<group>"; };
+		BA0A25511E78339A00EE25B4 /* NSURLSessionDataTask2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLSessionDataTask2Controller.m; sourceTree = "<group>"; };
 		BA77F78F1E767A0F00099956 /* NSURLSessionBackgroundDownloadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLSessionBackgroundDownloadController.h; sourceTree = "<group>"; };
 		BA77F7901E767A0F00099956 /* NSURLSessionBackgroundDownloadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLSessionBackgroundDownloadController.m; sourceTree = "<group>"; };
 		BA77F7921E769C6800099956 /* NSURLSessionDataTaskController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLSessionDataTaskController.h; sourceTree = "<group>"; };
@@ -103,6 +109,10 @@
 				BA77F7931E769C6800099956 /* NSURLSessionDataTaskController.m */,
 				BA77F7951E769FB100099956 /* NSURLSessionDownloadTaskController.h */,
 				BA77F7961E769FB100099956 /* NSURLSessionDownloadTaskController.m */,
+				BA0A254D1E781CAB00EE25B4 /* NSURLSessionDownloadTask2ViewController.h */,
+				BA0A254E1E781CAB00EE25B4 /* NSURLSessionDownloadTask2ViewController.m */,
+				BA0A25501E78339A00EE25B4 /* NSURLSessionDataTask2Controller.h */,
+				BA0A25511E78339A00EE25B4 /* NSURLSessionDataTask2Controller.m */,
 			);
 			path = JCNetwork;
 			sourceTree = "<group>";
@@ -240,7 +250,9 @@
 				BA83DCF31E7672E80031B807 /* ViewController.m in Sources */,
 				BA77F7911E767A0F00099956 /* NSURLSessionBackgroundDownloadController.m in Sources */,
 				BA77F7971E769FB100099956 /* NSURLSessionDownloadTaskController.m in Sources */,
+				BA0A254F1E781CAB00EE25B4 /* NSURLSessionDownloadTask2ViewController.m in Sources */,
 				BA83DCF01E7672E70031B807 /* AppDelegate.m in Sources */,
+				BA0A25521E78339A00EE25B4 /* NSURLSessionDataTask2Controller.m in Sources */,
 				BA77F7941E769C6800099956 /* NSURLSessionDataTaskController.m in Sources */,
 				BA83DCED1E7672E70031B807 /* main.m in Sources */,
 			);
