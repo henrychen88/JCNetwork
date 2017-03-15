@@ -13,6 +13,7 @@
 #import "NSURLSessionDownloadTask2ViewController.h"
 #import "NSURLSessionBackgroundDownloadController.h"
 #import "NSURLSessionDataTask2Controller.h"
+#import "DownLoadToolController.h"
 
 @interface ViewController ()
 
@@ -30,6 +31,7 @@
                         @"NSURLSessionDownloadTask",
                         @"NSURLSessionDownloadTask可暂停",
                         @"NSURLSessionDataTask离线断点",
+                        @"JCDownloadTool",
                         @"NSURLSession后台下载"];
     
     NSLog(@"%@", NSTemporaryDirectory());
@@ -78,6 +80,11 @@
         }
             break;
         case 4:
+        {
+            controller = [DownLoadToolController new];
+        }
+            break;
+        case 5:
         {
             controller = [NSURLSessionBackgroundDownloadController new];
         }

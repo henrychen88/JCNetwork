@@ -18,6 +18,9 @@
 		BA83DCF31E7672E80031B807 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA83DCF21E7672E80031B807 /* ViewController.m */; };
 		BA83DCF81E7672E80031B807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA83DCF71E7672E80031B807 /* Assets.xcassets */; };
 		BA83DCFB1E7672E80031B807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA83DCF91E7672E80031B807 /* LaunchScreen.storyboard */; };
+		BAC51AAE1E796E3100AF28AC /* JCFileExpandAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC51AAD1E796E3100AF28AC /* JCFileExpandAttributes.m */; };
+		BAC51AB11E7974D300AF28AC /* JCDownloadTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC51AB01E7974D300AF28AC /* JCDownloadTool.m */; };
+		BAC51AB41E7998E000AF28AC /* DownLoadToolController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC51AB31E7998E000AF28AC /* DownLoadToolController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,12 @@
 		BA83DCF71E7672E80031B807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA83DCFA1E7672E80031B807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA83DCFC1E7672E80031B807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAC51AAC1E796E3100AF28AC /* JCFileExpandAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCFileExpandAttributes.h; sourceTree = "<group>"; };
+		BAC51AAD1E796E3100AF28AC /* JCFileExpandAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCFileExpandAttributes.m; sourceTree = "<group>"; };
+		BAC51AAF1E7974D300AF28AC /* JCDownloadTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCDownloadTool.h; sourceTree = "<group>"; };
+		BAC51AB01E7974D300AF28AC /* JCDownloadTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCDownloadTool.m; sourceTree = "<group>"; };
+		BAC51AB21E7998E000AF28AC /* DownLoadToolController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownLoadToolController.h; sourceTree = "<group>"; };
+		BAC51AB31E7998E000AF28AC /* DownLoadToolController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownLoadToolController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +104,7 @@
 		BA83DCEA1E7672E70031B807 /* JCNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				BAC51AAB1E796E0900AF28AC /* JCDownloadTool */,
 				BA83DCEE1E7672E70031B807 /* AppDelegate.h */,
 				BA83DCEF1E7672E70031B807 /* AppDelegate.m */,
 				BA83DCF11E7672E80031B807 /* ViewController.h */,
@@ -113,6 +123,8 @@
 				BA0A254E1E781CAB00EE25B4 /* NSURLSessionDownloadTask2ViewController.m */,
 				BA0A25501E78339A00EE25B4 /* NSURLSessionDataTask2Controller.h */,
 				BA0A25511E78339A00EE25B4 /* NSURLSessionDataTask2Controller.m */,
+				BAC51AB21E7998E000AF28AC /* DownLoadToolController.h */,
+				BAC51AB31E7998E000AF28AC /* DownLoadToolController.m */,
 			);
 			path = JCNetwork;
 			sourceTree = "<group>";
@@ -123,6 +135,17 @@
 				BA83DCEC1E7672E70031B807 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAC51AAB1E796E0900AF28AC /* JCDownloadTool */ = {
+			isa = PBXGroup;
+			children = (
+				BAC51AAC1E796E3100AF28AC /* JCFileExpandAttributes.h */,
+				BAC51AAD1E796E3100AF28AC /* JCFileExpandAttributes.m */,
+				BAC51AAF1E7974D300AF28AC /* JCDownloadTool.h */,
+				BAC51AB01E7974D300AF28AC /* JCDownloadTool.m */,
+			);
+			name = JCDownloadTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,11 +270,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAC51AB11E7974D300AF28AC /* JCDownloadTool.m in Sources */,
+				BAC51AAE1E796E3100AF28AC /* JCFileExpandAttributes.m in Sources */,
 				BA83DCF31E7672E80031B807 /* ViewController.m in Sources */,
 				BA77F7911E767A0F00099956 /* NSURLSessionBackgroundDownloadController.m in Sources */,
 				BA77F7971E769FB100099956 /* NSURLSessionDownloadTaskController.m in Sources */,
 				BA0A254F1E781CAB00EE25B4 /* NSURLSessionDownloadTask2ViewController.m in Sources */,
 				BA83DCF01E7672E70031B807 /* AppDelegate.m in Sources */,
+				BAC51AB41E7998E000AF28AC /* DownLoadToolController.m in Sources */,
 				BA0A25521E78339A00EE25B4 /* NSURLSessionDataTask2Controller.m in Sources */,
 				BA77F7941E769C6800099956 /* NSURLSessionDataTaskController.m in Sources */,
 				BA83DCED1E7672E70031B807 /* main.m in Sources */,
